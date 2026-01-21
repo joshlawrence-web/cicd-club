@@ -1,0 +1,9 @@
+{
+  "displayName" : "testdocuments",
+  "scope" : "policy",
+  "format" : "pdf",
+  "rendering" : "dynamic",
+  "trigger" : "priced",
+  "portrait" : true,
+  "pageSize" : "letter"
+}

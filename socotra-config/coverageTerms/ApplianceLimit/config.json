@@ -1,0 +1,30 @@
+{
+  "type" : "deductible",
+  "displayName" : "Appliance Limit",
+  "options" : {
+    "applianceLimit_50" : {
+      "displayName" : "50%",
+      "value" : 0.5,
+      "displayHints" : {
+        "displayName" : "50%",
+        "displayOrder" : -1
+      }
+    },
+    "applianceLimit_100" : {
+      "displayName" : "100%",
+      "value" : 1,
+      "displayHints" : {
+        "displayName" : "100%",
+        "displayOrder" : -1
+      }
+    },
+    "applianceLimit_25" : {
+      "displayName" : "25%",
+      "value" : 0.25,
+      "displayHints" : {
+        "displayName" : "25%",
+        "displayOrder" : -1
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "displayName" : "Personal Account",
+  "abstract" : false,
+  "data" : {
+    "firstName" : {
+      "displayName" : "First Name",
+      "type" : "string",
+      "maxLength" : 200
+    },
+    "lastName" : {
+      "displayName" : "Last Name",
+      "type" : "string",
+      "maxLength" : 200
+    },
+    "email" : {
+      "displayName" : "Contact Email",
+      "type" : "string",
+      "maxLength" : 200
+    },
+    "primaryPhone" : {
+      "displayName" : "Primary Phone",
+      "type" : "string",
+      "maxLength" : 200
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "disburseExcess" : false,
+  "advanceDisbursementTo" : "executed",
+  "autoApplyExcessToInvoicesEnabled" : false
+}

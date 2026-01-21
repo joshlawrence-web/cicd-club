@@ -1,0 +1,313 @@
+{
+  "abstract" : false,
+  "defaultInstallmentPlan" : "Monthly12",
+  "defaultTermDuration" : 12,
+  "defaultDelinquencyPlan" : "Standard",
+  "defaultAutoRenewalPlan" : "Standard_60_30_1",
+  "defaultShortfallTolerancePlan" : "basicPlan",
+  "displayName" : "ItemCare",
+  "defaultDurationBasis" : "months",
+  "eligibleAccountTypes" : [ "Account" ],
+  "contents" : [ "Item+" ],
+  "charges" : [ "fee", "premium", "tax", "premiumExclDiscount","settlement" ],
+  "data" : {
+    "countryCode" : {
+      "displayName" : "Country Code",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "migratedContract" : {
+      "displayName" : "Migrated Contract",
+      "type" : "boolean"
+    },
+    "contractId" : {
+      "displayName" : "Contract ID",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "contractExternalReference" : {
+      "displayName" : "Contract External Reference",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "propositionCoverCategoryCode" : {
+      "displayName" : "Proposition Cover Category Code",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "productCategoryId" : {
+      "displayName" : "Product Category Id",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "productTypeId" : {
+      "displayName" : "Product Type Id",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "productVariantId" : {
+      "displayName" : "Product Variant Id",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "legalEntityCode" : {
+      "displayName" : "Legal Entity Code",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "correspondenceAddressId" : {
+      "displayName" : "Correspondence Address Id",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "clientCode" : {
+      "displayName" : "Client Code",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "channelCode" : {
+      "displayName" : "Channel Code",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "channelAttributeCode" : {
+      "displayName" : "Channel Attribute Code",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "productTerm" : {
+      "displayName" : "Product Term",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "paymentProfileCode" : {
+      "displayName" : "Payment Profile Code",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "paymentProfileDetails" : {
+      "displayName" : "Payment Profile Details",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "paymentMethodCode" : {
+      "displayName" : "Payment Method Code",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "underwriterCode" : {
+      "displayName" : "Underwriter Code",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "periodOfCover" : {
+      "displayName" : "Period of Cover",
+      "type" : "int"
+    },
+    "documentUrl" : {
+      "displayName" : "Document URL",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "documentCopy" : {
+      "displayName" : "Document Copy",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "coolingOffPeriod" : {
+      "displayName" : "Cooling off Period",
+      "type" : "int"
+    },
+    "newBusinessWaitPeriod" : {
+      "displayName" : "New Business Wait Period",
+      "type" : "int?"
+    },
+    "maxItems" : {
+      "displayName" : "Max Items",
+      "type" : "int?"
+    },
+    "numberInsuredExposures" : {
+      "displayName" : "Number Insured Exposures",
+      "type" : "int?"
+    },
+    "multiplan" : {
+      "displayName" : "Multiplan",
+      "type" : "boolean"
+    },
+    "currentContractRenewalPreference" : {
+      "displayName" : "Current Contract Renewal Preference",
+      "type" : "boolean?"
+    },
+    "futureAutorenewalPreference" : {
+      "displayName" : "Future Autorenewal Preference",
+      "type" : "boolean?"
+    },
+    "soldByUserId" : {
+      "displayName" : "Sold by User ID",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "soldByUserType" : {
+      "displayName" : "Sold By User Type",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "endorsedByUserId" : {
+      "displayName" : "Endorsed by User ID",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "endorsedByUserType" : {
+      "displayName" : "Endorsed By User Type",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "staffIdForDiscount" : {
+      "displayName" : "Staff ID For Discount",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "netTotalAmountExclDiscount" : {
+      "displayName" : "Net Total Amount Excluding Discount",
+      "type" : "decimal",
+      "precision" : 2
+    },
+    "discountProfileCode" : {
+      "displayName" : "Discount Profile Code",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "discountTerm" : {
+      "displayName" : "Discount Term",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "discountAmount" : {
+      "displayName" : "Discount Amount",
+      "type" : "decimal?",
+      "precision" : 2
+    },
+    "discountType" : {
+      "displayName" : "Discount Type",
+      "type" : "string?",
+      "maxLength" : 20000,
+      "options" : [ "P", "F" ]
+    },
+    "csaDiscretionaryDiscountAmount" : {
+      "displayName" : "CSA Discretionary Discount Amount",
+      "type" : "int?"
+    },
+    "nominatedPaymentDay" : {
+      "displayName" : "Nominated Payment Day",
+      "type" : "int?",
+      "min" : "1",
+      "max" : "28"
+    },
+    "referenceIdCode" : {
+      "displayName" : "Reference ID Code",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "instanceCode" : {
+      "displayName" : "Instance Code",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "checkDigit" : {
+      "displayName" : "Check Digit",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "contractTermEndDate" : {
+      "displayName" : "Contract Term End Date",
+      "type" : "datetime"
+    },
+    "expectedRenewalDate" : {
+      "displayName" : "Expected Renewal Date",
+      "type" : "date"
+    },
+    "thirdPartyContractExpiryDate" : {
+      "displayName" : "Third Party Contract Expiry Date",
+      "type" : "date?"
+    },
+    "ratingEffectiveDate" : {
+      "displayName" : "Rating Effective Date",
+      "type" : "date"
+    },
+    "ratingSystemCode" : {
+      "displayName" : "Rating System Code",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "systemCode" : {
+      "displayName" : "System Code",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "salesTaxProductClassCode" : {
+      "displayName" : "Sales Tax Product Class Code",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "offerReference" : {
+      "displayName" : "Offer Reference",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "offerEffectiveStartDate" : {
+      "displayName" : "Offer Effective Start Date",
+      "type" : "date?"
+    },
+    "billingAccountProfileId" : {
+      "displayName" : "Billing Account Profile Id",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "settlementPeriod" : {
+      "displayName" : "Settlement Period",
+      "type" : "int"
+    },
+    "settlementPeriodType" : {
+      "displayName" : "Settlement Period Type",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "settlementPeriodOffsetInDays" : {
+      "displayName" : "Settlement Period Offset In Days",
+      "type" : "int"
+    },
+    "gracePeriod" : {
+      "displayName" : "Grace Period",
+      "type" : "int"
+    },
+    "gracePeriodType" : {
+      "displayName" : "Grace Period Type",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "renewalPhase" : {
+      "displayName" : "Renewal Phase",
+      "type" : "int"
+    },
+    "createdByInteractionId" : {
+      "displayName" : "Created By Interaction Id",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "lastUpdatedByInteractionId" : {
+      "displayName" : "Last Updated By Interaction Id",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "createdInteractionEventId" : {
+      "displayName" : "Created Interaction Event Id",
+      "type" : "int"
+    },
+    "lastUpdatedInteractionEventId" : {
+      "displayName" : "Last Updated Interaction Event Id",
+      "type" : "int"
+    }
+  },
+  "numberingPlan" : "DGPolicyNumberingPlan",
+  "numberingString" : "DG"
+}

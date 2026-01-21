@@ -1,0 +1,6 @@
+{
+  "category" : "nonFinancial",
+  "handling" : "normal",
+  "invoicing" : "scheduled",
+  "transactionBundlingEnabled" : false
+}

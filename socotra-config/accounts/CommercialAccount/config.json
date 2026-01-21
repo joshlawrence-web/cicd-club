@@ -1,0 +1,21 @@
+{
+  "displayName" : "Commercial Account",
+  "abstract" : false,
+  "data" : {
+    "companyName" : {
+      "displayName" : "Company Name",
+      "type" : "string",
+      "maxLength" : 200
+    },
+    "email" : {
+      "displayName" : "Contact Email",
+      "type" : "string",
+      "maxLength" : 200
+    },
+    "primaryPhone" : {
+      "displayName" : "Primary Phone",
+      "type" : "string",
+      "maxLength" : 200
+    }
+  }
+}

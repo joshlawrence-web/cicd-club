@@ -1,0 +1,9 @@
+{
+  "displayName" : "Forms01",
+  "scope" : "policy",
+  "format" : "pdf",
+  "rendering" : "prerendered",
+  "trigger" : "priced",
+  "portrait" : true,
+  "pageSize" : "letter"
+}

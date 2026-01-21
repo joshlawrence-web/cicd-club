@@ -1,0 +1,8 @@
+{
+  "displayName" : "Full Pay",
+  "cadence" : "fullPay",
+  "anchorMode" : "termStartDay",
+  "generateLeadDays" : 10,
+  "dueLeadDays" : 7,
+  "maxInstallmentsPerTerm" : 1000
+}

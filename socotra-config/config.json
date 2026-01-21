@@ -1,0 +1,17 @@
+{
+  "defaultTimeZone" : "America/Phoenix",
+  "defaultCurrency" : "USD",
+  "defaultTermDuration" : 1,
+  "defaultInstallmentPlan" : "Monthly12",
+  "defaultDurationBasis" : "years",
+  "defaultBillingTrigger" : "issue",
+  "defaultBackdatedInstallmentsBilling" : "deferDueDate",
+  "defaultDelinquencyPlan" : "Standard",
+  "defaultAutoRenewalPlan" : "Standard_60_30_1",
+  "defaultExcessCreditPlan" : "Standard",
+  "defaultAuxDataSettings" : "SampleAuxDataSetting",
+  "defaultShortfallTolerancePlan" : "basicPlan",
+  "enableSerialInvoiceNumbering" : false,
+  "enableEntityAnonymization" : false,
+  "defaultScheduleUploadErrorsLimit" : 1
+}

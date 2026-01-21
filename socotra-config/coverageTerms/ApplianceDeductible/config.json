@@ -1,0 +1,30 @@
+{
+  "type" : "deductible",
+  "displayName" : "Appliance Deductible",
+  "options" : {
+    "applianceDeductible_200" : {
+      "displayName" : "£200",
+      "value" : 200,
+      "displayHints" : {
+        "displayName" : "£200",
+        "displayOrder" : -1
+      }
+    },
+    "applianceDeductible_100" : {
+      "displayName" : "£100",
+      "value" : 100,
+      "displayHints" : {
+        "displayName" : "£100",
+        "displayOrder" : -1
+      }
+    },
+    "applianceDeductible_50" : {
+      "displayName" : "£50",
+      "value" : 50,
+      "displayHints" : {
+        "displayName" : "£50",
+        "displayOrder" : -1
+      }
+    }
+  }
+}

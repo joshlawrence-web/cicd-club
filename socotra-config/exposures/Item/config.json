@@ -1,0 +1,70 @@
+{
+  "abstract" : false,
+  "displayName" : "Item",
+  "contents" : [ "Accessories?", "AccidentalDamage?", "Breakdown?", "Loss?", "RepeatFaultThree?", "Replacement?", "ReplacementRepair?", "ReplacementWO?", "Theft?" ],
+  "data" : {
+    "itemLocationAddressId" : {
+      "displayName" : "Item Location Address Id",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "goodsCategoryCode" : {
+      "displayName" : "Goods Category Code",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "manufacturerBrandCode" : {
+      "displayName" : "Manufacturer Brand Code",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "levelOfCoverCategoryCode" : {
+      "displayName" : "Level of Cover Category Code",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "coverExclusions" : {
+      "displayName" : "Cover Exclusions",
+      "type" : "CoverExclusions*"
+    },
+    "manufacturerLabourGuaranteePeriod" : {
+      "displayName" : "Manufacturer Labour Guarantee Period",
+      "type" : "int?"
+    },
+    "manufacturerPartsGuaranteePeriod" : {
+      "displayName" : "Manufacturer Parts Guarantee Period",
+      "type" : "int"
+    },
+    "purchaseDate" : {
+      "displayName" : "Purchase Date",
+      "type" : "date"
+    },
+    "purchasePrice" : {
+      "displayName" : "Purchase Price",
+      "type" : "decimal",
+      "precision" : 2
+    },
+    "manufactureYear" : {
+      "displayName" : "Manufacture Year",
+      "type" : "date?"
+    },
+    "itemTypeCode" : {
+      "displayName" : "Item Type Code",
+      "type" : "string",
+      "maxLength" : 20000
+    },
+    "itemInWarrantyAtTakeup" : {
+      "displayName" : "Item In Warranty At Take Up",
+      "type" : "boolean"
+    },
+    "itemInWorkingOrderAtTakeup" : {
+      "displayName" : "Item In Working Order At Takeup",
+      "type" : "boolean"
+    },
+    "maxClaimAmount" : {
+      "displayName" : "Max Claim Amount",
+      "type" : "decimal?",
+      "precision" : 2
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type" : "deductible",
+  "displayName" : "Accessory Deductible",
+  "options" : {
+    "accessoryDeductible_25" : {
+      "displayName" : "£25",
+      "value" : 25,
+      "displayHints" : {
+        "displayName" : "£25",
+        "displayOrder" : -1
+      }
+    }
+  }
+}

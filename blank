@@ -1,0 +1,12 @@
+public ItemCareSegment(ULID locator
+ @JsonView({Internal.class}) 
+ULID transactionLocator
+ @JsonView({Internal.class}) Optional<ULID> basedOn
+ SegmentType segmentType
+ Instant startTime
+ Instant endTime
+ BigDecimal duration
+ Collection<ItemPolicy> items
+ ItemCareSegmentData data
+ @JsonView({Internal.class}) Element element) {
+        

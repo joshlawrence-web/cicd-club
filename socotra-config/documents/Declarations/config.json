@@ -1,0 +1,10 @@
+{
+  "displayName" : "testdocuments",
+  "scope" : "policy",
+  "format" : "pdf",
+  "rendering" : "dynamic",
+  "selectionTimeBasis" : "termStartTime",
+  "trigger" : "accepted",
+  "portrait" : true,
+  "pageSize" : "letter"
+}

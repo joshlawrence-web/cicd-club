@@ -1,0 +1,8 @@
+{
+  "displayName" : "Monthly 12",
+  "cadence" : "monthly",
+  "anchorMode" : "termStartDay",
+  "generateLeadDays" : 0,
+  "dueLeadDays" : 0,
+  "maxInstallmentsPerTerm" : 12
+}

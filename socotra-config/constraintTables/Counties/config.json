@@ -1,0 +1,9 @@
+{
+  "columns" : {
+    "counties" : {
+      "dataType" : "string",
+      "makeDistinct" : true
+    }
+  },
+  "selectionTimeBasis" : "currentTime"
+}

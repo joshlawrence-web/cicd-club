@@ -1,0 +1,120 @@
+{
+  "displayName" : "Payment",
+  "abstract" : false,
+  "data" : {
+    "paymentCollectionSystemInvoiceId" : {
+      "displayName" : "Payment Collection System Invoice ID",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "paidDate" : {
+      "displayName" : "Paid Date",
+      "type" : "date?"
+    },
+    "errorCode" : {
+      "displayName" : "Error Code",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "pspErrorCode" : {
+      "displayName" : "PSP Error Code",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "paymentCollectionSystemCode" : {
+      "displayName" : "Payment Collection System Code",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "itemInWarrantyAtTakeup" : {
+      "displayName" : "Item In Warranty At Takeup",
+      "type" : "boolean?"
+    },
+    "createdByInteractionId" : {
+      "displayName" : "Created By Interaction ID",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "lastUpdatedByInteractionId" : {
+      "displayName" : "Last Updated By Interaction ID",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "createdInteractionEventId" : {
+      "displayName" : "Created Interaction Event ID",
+      "type" : "int?"
+    },
+    "lastUpdatedInteractionEventId" : {
+      "displayName" : "Last Updated Interaction Event ID",
+      "type" : "int?"
+    },
+    "paymentMethodCode" : {
+      "displayName" : "Payment Method Code",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "paymentChannelCode" : {
+      "displayName" : "Payment Channel Code",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "paymentCollectionSystemPaymentTransactionId" : {
+      "displayName" : "Payment Collection System Payment Transaction ID",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "paymentDgTransactionReference" : {
+      "displayName" : "Payment DG Transaction Reference",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "pspTransactionReference" : {
+      "displayName" : "PSP Transaction Reference",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "pasInvoiceLocator" : {
+      "displayName" : "PAS Invoice Locator",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "chequeNumber" : {
+      "displayName" : "Cheque Number",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "payoutReason" : {
+      "displayName" : "Payout Reason",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "pspChargebackTransactionId" : {
+      "displayName" : "PSP Chargeback Transaction ID",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "pspChargebackIssueDate" : {
+      "displayName" : "PSP Chargeback Issue Date",
+      "type" : "date?"
+    },
+    "pspChargebackCode" : {
+      "displayName" : "PSP Chargeback Code",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "pspChargebackReversalTransactionId" : {
+      "displayName" : "PSP Chargeback Reversal Transaction ID",
+      "type" : "string?",
+      "maxLength" : 20000
+    },
+    "pspChargebackReversalIssueDate" : {
+      "displayName" : "PSP Chargeback Reversal Issue Date",
+      "type" : "date?"
+    },
+    "pspChargebackReversalCode" : {
+      "displayName" : "PSP Chargeback Reversal Code",
+      "type" : "string?",
+      "maxLength" : 20000
+    }
+  }
+}
