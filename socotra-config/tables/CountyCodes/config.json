@@ -1,0 +1,13 @@
+{
+  "columns" : {
+    "countyCode" : {
+      "dataType" : "string",
+      "isKey" : true
+    },
+    "county" : {
+      "dataType" : "string",
+      "isKey" : false
+    }
+  },
+  "selectionTimeBasis" : "termStartTime"
+}

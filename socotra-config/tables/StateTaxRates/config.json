@@ -1,0 +1,13 @@
+{
+  "columns" : {
+    "key" : {
+      "dataType" : "string",
+      "isKey" : true
+    },
+    "stateTaxRate" : {
+      "dataType" : "decimal",
+      "isKey" : false
+    }
+  },
+  "selectionTimeBasis" : "termStartTime"
+}

@@ -1,0 +1,6 @@
+{
+  "category" : "tax",
+  "handling" : "normal",
+  "invoicing" : "scheduled",
+  "transactionBundlingEnabled" : false
+}

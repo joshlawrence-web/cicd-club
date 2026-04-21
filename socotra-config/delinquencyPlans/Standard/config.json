@@ -1,0 +1,7 @@
+{
+  "displayName" : "Standard Delinquency Plan",
+  "gracePeriodDays" : 0,
+  "delinquencyLevel" : "policy",
+  "lapseTransactionType" : "cancellation",
+  "advanceLapseTo" : "issued"
+}

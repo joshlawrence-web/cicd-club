@@ -1,0 +1,6 @@
+{
+  "category" : "premium",
+  "handling" : "retention",
+  "invoicing" : "next",
+  "transactionBundlingEnabled" : false
+}

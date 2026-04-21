@@ -1,0 +1,13 @@
+{
+  "columns" : {
+    "key" : {
+      "dataType" : "string",
+      "isKey" : true
+    },
+    "serialValid" : {
+      "dataType" : "string",
+      "isKey" : false
+    }
+  },
+  "selectionTimeBasis" : "termStartTime"
+}

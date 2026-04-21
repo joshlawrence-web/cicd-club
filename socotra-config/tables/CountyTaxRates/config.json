@@ -1,0 +1,21 @@
+{
+  "columns" : {
+    "countyCode" : {
+      "dataType" : "string",
+      "isKey" : true
+    },
+    "county" : {
+      "dataType" : "string",
+      "isKey" : false
+    },
+    "taxRate" : {
+      "dataType" : "string",
+      "isKey" : false
+    },
+    "surcharge" : {
+      "dataType" : "string",
+      "isKey" : false
+    }
+  },
+  "selectionTimeBasis" : "termStartTime"
+}

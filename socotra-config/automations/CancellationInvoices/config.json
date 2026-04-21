@@ -1,0 +1,46 @@
+{
+  "actions" : {
+    "loadInvoiceAuxData" : {
+      "timeout" : 30,
+      "request" : {
+        "policyLocator" : {
+          "displayName" : "Policy Locator",
+          "type" : "string",
+          "maxLength" : 20000
+        },
+        "cancellationComments" : {
+          "displayName" : "Cancellation Comments",
+          "type" : "string",
+          "maxLength" : 20000
+        },
+        "cancellationDate" : {
+          "displayName" : "Cancellation Date",
+          "type" : "string",
+          "maxLength" : 20000
+        },
+        "cancellationMode" : {
+          "displayName" : "Cancellation Mode",
+          "type" : "string",
+          "maxLength" : 20000
+        }
+      },
+      "response" : {
+        "result" : {
+          "displayName" : "Result",
+          "type" : "boolean",
+          "defaultValue" : "true"
+        },
+        "transactionLocator" : {
+          "displayName" : "Transaction Locator",
+          "type" : "string",
+          "maxLength" : 20000
+        },
+        "transactionState" : {
+          "displayName" : "Transaction State",
+          "type" : "string",
+          "maxLength" : 20000
+        }
+      }
+    }
+  }
+}

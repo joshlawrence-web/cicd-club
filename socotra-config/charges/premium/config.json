@@ -1,0 +1,6 @@
+{
+  "category" : "premium",
+  "handling" : "normal",
+  "invoicing" : "scheduled",
+  "transactionBundlingEnabled" : false
+}

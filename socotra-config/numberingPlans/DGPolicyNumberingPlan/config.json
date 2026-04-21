@@ -1,0 +1,6 @@
+{
+  "initialCoreNumber" : "000000001",
+  "format" : "\\D\\G-########-{product}",
+  "copyFromQuote" : true,
+  "termNumberFormat" : "{policyNumber}-{termNumberPlusOne}"
+}

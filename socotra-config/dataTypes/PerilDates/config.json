@@ -1,0 +1,14 @@
+{
+  "displayName" : "Peril Date",
+  "abstract" : false,
+  "data" : {
+    "perilStartDate" : {
+      "displayName" : "Peril Start Date",
+      "type" : "date?"
+    },
+    "perilEndDate" : {
+      "displayName" : "Peril End Date",
+      "type" : "date?"
+    }
+  }
+}

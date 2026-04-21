@@ -1,0 +1,6 @@
+{
+  "category" : "invoiceFee",
+  "handling" : "flat",
+  "invoicing" : "next",
+  "transactionBundlingEnabled" : false
+}

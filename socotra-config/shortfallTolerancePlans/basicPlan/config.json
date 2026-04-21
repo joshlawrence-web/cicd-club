@@ -1,0 +1,6 @@
+{
+  "currencyTolerances" : {
+    "USD" : 1,
+    "CAD" : 1.35
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "generateAutoRenewals" : true,
+  "renewalTransactionType" : "StandardRenewal",
+  "renewalCreateLeadDays" : 60,
+  "renewalAcceptLeadDays" : 30,
+  "renewalIssueLeadDays" : 1,
+  "newTermDuration" : 1
+}

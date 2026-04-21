@@ -1,0 +1,49 @@
+{
+  "displayName" : "Cover Data",
+  "abstract" : false,
+  "data" : {
+    "perilStartDate" : {
+      "displayName" : "Peril Start Date",
+      "type" : "date?"
+    },
+    "perilEndDate" : {
+      "displayName" : "Peril End Date",
+      "type" : "date?"
+    },
+    "premium" : {
+      "displayName" : "Premium",
+      "type" : "decimal?",
+      "precision" : 2
+    },
+    "taxRate" : {
+      "displayName" : "Tax Rate",
+      "type" : "decimal?",
+      "precision" : 5
+    },
+    "taxAmount" : {
+      "displayName" : "Tax Amount",
+      "type" : "decimal?",
+      "precision" : 2
+    },
+    "labourCovered" : {
+      "displayName" : "Labour Covered",
+      "type" : "string?",
+      "maxLength" : 20000,
+      "options" : [ "true", "false", "" ]
+    },
+    "partsCovered" : {
+      "displayName" : "Parts Covered",
+      "type" : "string?",
+      "maxLength" : 20000,
+      "options" : [ "true", "false", "" ]
+    },
+    "manufacturerLabourGuaranteeEndDate" : {
+      "displayName" : "Manufacturer Labour Guarantee End Date",
+      "type" : "date?"
+    },
+    "manufacturerPartsGuaranteeEndDate" : {
+      "displayName" : "Manufacturer Parts Guarantee End Date",
+      "type" : "date?"
+    }
+  }
+}

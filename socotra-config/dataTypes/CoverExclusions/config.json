@@ -1,0 +1,11 @@
+{
+  "displayName" : "Cover Exclusions",
+  "abstract" : false,
+  "data" : {
+    "exclusionCode" : {
+      "displayName" : "Exclusion code",
+      "type" : "string?",
+      "maxLength" : 20000
+    }
+  }
+}

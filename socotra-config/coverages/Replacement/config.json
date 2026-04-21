@@ -1,0 +1,31 @@
+{
+  "abstract" : false,
+  "displayName" : "Replacement",
+  "coverageTerms" : [ "ZeroDeductible" ],
+  "charges" : [ "premium" ],
+  "data" : {
+    "perilStartDate" : {
+      "displayName" : "Peril Start Date",
+      "type" : "date?"
+    },
+    "perilEndDate" : {
+      "displayName" : "Peril End Date",
+      "type" : "date?"
+    },
+    "premium" : {
+      "displayName" : "Premium",
+      "type" : "decimal?",
+      "precision" : 2
+    },
+    "taxRate" : {
+      "displayName" : "Tax Rate",
+      "type" : "decimal?",
+      "precision" : 5
+    },
+    "taxAmount" : {
+      "displayName" : "Tax Amount",
+      "type" : "decimal?",
+      "precision" : 2
+    }
+  }
+}
